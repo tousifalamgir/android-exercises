@@ -1,6 +1,7 @@
 package ca.mohawk.exploringlayouts;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,18 @@ public class MainActivity extends AppCompatActivity {
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
 //            return insets;
 //        });
+
+        setContentView(R.layout.main_menu);
+    }
+
+    public void loadConstraintLayout(View v) {
+        setContentView(R.layout.activity_main);
+    }
+
+    public void loadTableLayout(View v) {
+        setContentView(R.layout.my_table_layout);
+    }
+    public void loadMenuLayout(View v) {
+        setContentView(R.layout.main_menu);
     }
 }
