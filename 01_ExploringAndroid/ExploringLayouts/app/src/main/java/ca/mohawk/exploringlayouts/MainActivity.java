@@ -35,4 +35,10 @@ public class MainActivity extends AppCompatActivity {
     public void loadMenuLayout(View v) {
         setContentView(R.layout.main_menu);
     }
+    public void loadAttr1Layout(View v) {
+        setContentView(R.layout.attributes);
+    }
+    public void loadAttr2Layout(View v) {
+        setContentView(R.layout.attributes2);
+    }
 }
